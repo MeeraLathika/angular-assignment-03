@@ -89,7 +89,7 @@ function MenuSearchService ($http, searchTerm) {
 	};
 
 	service.isEmpty = function () {
-		console.log(emptyMessage);
+		//console.log(emptyMessage);
 		return emptyMessage;
 	};
 }
