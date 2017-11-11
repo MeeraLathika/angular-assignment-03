@@ -33,7 +33,7 @@ function NarrowItDownController (MenuSearchService) {
 			var promise = MenuSearchService.getMatchedMenuItems(ctrl.searchTerm);
 			promise.then(function(result) {
 				ctrl.found = result;
-				ctrl.empty = MenuSearchService.isEmpty();
+				//ctrl.empty = MenuSearchService.isEmpty();
 			})
 			.catch(function(error) {
 			console.log(error);
